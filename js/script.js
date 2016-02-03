@@ -8,7 +8,9 @@ var divs = $("#gameboard div");
 console.log(divs);
 console.log(images);
 
-function shuffle(array) {
+$("div .card").flip();
+
+var shuffle = function(array) {
   var m = array.length, t, i;
 
   // While there remain elements to shuffle…
@@ -27,21 +29,28 @@ function shuffle(array) {
 };
 
 var newImages = shuffle(images);
-var counter = 1;
+var n = 1;
 
 for (var i = 0; i < newImages.length; i++) {
-	$(".space:nth-child(" + counter +")").css("background-image", "url(" + newImages[i] + ")"); 
-	counter++;
-}
+	$("div .card:nth-child(" + n +") .back").css("background-image", "url(" + newImages[i] + ")");
+	console.log(n +" and "+ i); 
+	console.log(newImages[i]);
+	console.log($("div .card:nth-child(" + n +") .back"));
+	n++;
+};
 console.log(newImages);
 
-function clickCard() {
-	$(".space div").click(function() {
-		var clickedImage = [];
-		clickedImage.push($(this));
-	})
-	console.log(clickedImage);
-};
+// 	$(".clas").flip({
+// 		axis: "x",
+// 		trigger: "click"
+		
+// });
+		$("#gameboard div .back").on("click", function(){
+		var clickedImage = $(this);
+		console.log(clickedImage);
+		});
+	
+//after click on image, check to see if two clicks equal each other. If they are equal, declare a match and stay flipped over. If they are not equal, flip back to covered state. 	
 
 });
 
