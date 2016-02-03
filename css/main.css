@@ -1,42 +1,59 @@
-* {
-	background-color: #333333;
+body {
+	/*background-color: #333333;*/
 	color: #EB593C;
 	text-align: center;
+	background-image: url("coral-reef.jpg");
+	background-size: cover;
+	font-size: 24px;
 }
 img {
 	max-height: 100%;
 	max-width: 100%;
 }
+button {
+	color: #EB593C;
+	background: midnightblue;
+	font-size: 15px;
+}
+
+#head {
+	display: inline-block;
+}
 
 #gameboard {
 	margin: 50px auto;
-	padding: 40px;
+	padding: 20px;
 	width: 700px;
 	height: 500px;
-	/*background: #FFFCEC;*/
-	border: 1px solid black;
-	border-radius: 10px;
+	/*background: #FFFCEC;*/*/
+	/*border: 1px solid black;
+	border-radius: 10px;*/
 }
 .card .back {
 	background-color: lightblue;
 	background-size: cover;
 	border: 2px solid black;
 	border-radius: 8px;
-
+	padding: 5px;
 }
 
 .card .front {
-	background-color: purple;
+	padding: 5px;
+	background: linear-gradient(darkcyan, aqua);
+	opacity: .7;
 	border: 2px solid black;
 	border-radius: 8px;
+	/*background-image: url("seahorse.png");
+	background-size: cover;*/
 
 }
 
+
 #gameboard .card {
-	
+	margin: 10px;
 	width: 100px;
 	height: 100px;
-	margin: 0;
+	
 	display: inline-block;
 	text-align: center;
 	cursor: pointer;
