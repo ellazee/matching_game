@@ -1,0 +1,35 @@
+* {
+	background-color: #333333;
+	color: #EB593C;
+	text-align: center;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#gameboard {
+	margin: 50px auto;
+	padding: 40px;
+	width: 700px;
+	height: 500px;
+	background: #FFFCEC;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#gameboard .space {
+	background-size: cover;
+
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: 0;
+	float: left;
+	font-size: 140px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: #ABDCD6;
+}
