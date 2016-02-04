@@ -89,6 +89,7 @@ var whatScore = function() {
 					clickedFirst.parent().off('.flip');
 					clickedSecond.parent().off('.flip'); 
 					turnCounter++;
+
 					if (turnCounter % 2 !== 0) {
 						scoreCounter1++
 					} else {
@@ -112,8 +113,9 @@ var whatScore = function() {
 					}, 1200);	
 					//console.log("not a match")										
 				}
-				whichPlayer();
+				whichPlayer(); //reorder where the function is being called to ensure that player switch is still taking place after a match
 				whatScore();
+				console.log(turnCounter);
 			};
 		});			
 	//});
