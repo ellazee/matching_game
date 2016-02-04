@@ -9,6 +9,7 @@ This is a memory matching game, where the players can flip cards in an attempt t
 
 ######BUGS TO WORK OUT
 * The game is not optimized for smaller screens, ie smart phones etc.
+* If the player clicks on a card before the previous card is finished flipping, it causes the game to get out of order. 
 
 **link to game at http://ellazee.github.io/matching_game/**
 
