@@ -1,6 +1,6 @@
 #Memory Matching Game
 
-This is a memory matching game, where the players can flip cards in an attempt to make a match. The player with the most matches wins the game. Jquery was used, including a flip plug-in. 
+This is a memory matching game, where the players can flip cards in an attempt to make a match. The player with the most matches wins the game. Jquery was used, including a flip plug-in. The Javscript includes the Fisher Yates shuffle algorithm to randomize the cards, and sweet alerts were used for match and win notifications.  
 
 ######FEATURES
 * Tracking of which player's turn it is
