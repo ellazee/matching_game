@@ -3,16 +3,21 @@
 	<head>
 		<title>matchgame</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+		<link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
 	
 	</head>
 	<body>
 		
 		<header>
-				<h1>match game</h1>
+				<h1>sea creature <b>memory</b> match</h1>
 		</header>
 		<div id="head">		
-				<button id="newGame">Start New Game!</button>
-				<div>Score</div>
+				<button id="newGame">Start New Game!</button>				
+				<div id="turn">Turn: Player 1</div>
+				<div id="player1">Player 1 Score: 0</div>
+				<div id="player2">Player 2 Score: 0</div>
 		</div>
 		<div id="gameboard">
 				<div class="card"><div class="back"></div><div class="front"></div></div>
@@ -43,6 +48,7 @@
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>	
 	<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.19/dist/jquery.flip.min.js"></script>
+	<script src="js/sweetalert.min.js"></script> 
 	<script src="js/script.js"></script>	
 	</body>
 </html>

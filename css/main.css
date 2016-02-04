@@ -5,6 +5,7 @@ body {
 	background-image: url("coral-reef.jpg");
 	background-size: cover;
 	font-size: 24px;
+	font-family: Arvo;
 }
 img {
 	max-height: 100%;
@@ -13,13 +14,23 @@ img {
 button {
 	color: #EB593C;
 	background: midnightblue;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: Arvo;
+	
 }
 
 #head {
-	display: inline-block;
-}
+	/*display: inline-block;*/
+	position: absolute;
+	text-align: left;
+	margin-top: 150px;
+	margin-left: 50px; 
+	font-size: 20px;
 
+}
+#score {
+	padding: 4px;
+}
 #gameboard {
 	margin: 50px auto;
 	padding: 20px;
