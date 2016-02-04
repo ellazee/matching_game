@@ -4,11 +4,13 @@ This is a memory matching game, where the players can flip cards in an attempt t
 
 ######FEATURES
 * Tracking of which player's turn it is
-* A scoreboard that keeps shows the current score
+* A scoreboard that shows the current score
 * Notifications for when there is a match, and when the game is finished
 
 ######BUGS TO WORK OUT
 * The game is not optimized for smaller screens, ie smart phones etc.
+
+**link to game at http://ellazee.github.io/matching_game/**
 
 
 
